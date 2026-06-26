@@ -6,7 +6,7 @@ const msg=document.querySelector("#msg");
 
 const userScorePara= document.querySelector("#user-score");
 const compScorePara= document.querySelector("#comp-score");
-
+//is this a bug
 const genCompChoice = () => {
     const options=["stone","paper","scissors"];
     const randIdx=Math.floor(Math.random()*3);
